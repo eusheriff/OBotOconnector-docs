@@ -1,26 +1,33 @@
 # OBot OConnector
 
-AI Bot platform for **conversation automation and intelligent agent orchestration** within the OConnector ecosystem.
+🌐 Live Platform  
+https://obot.oconnector.tech
+
+📦 Part of the OConnector Ecosystem  
+https://oconnector.tech
 
 ## Overview
-OBot provides the conversational intelligence layer, enabling AI agents to interact with users, classify intents, retrieve context via RAG, and execute actions across connected systems.
+OBot is an **AI agent orchestration platform** designed to manage, route, and execute conversational and task-oriented AI agents within business workflows.
 
-## Key Capabilities
-- AI-powered conversational agents
-- Context-aware responses using embeddings and RAG
-- Integration with business workflows
-- Intelligent escalation to human operators
+It acts as the **intelligent interaction layer** between users, data, and automated processes.
+
+## Core Capabilities
+- AI agent orchestration and routing
+- Context persistence across conversations
+- RAG-enabled responses
+- Human handoff and escalation flows
+- API-based integrations with external systems
 
 ## Architecture
-- Stateless bot execution with contextual memory
-- Modular agent definitions
-- Event-based integration with core services
+- Agent-based orchestration model
+- Event-driven execution
+- Shared contextual memory across agents
+- Designed for high concurrency environments
 
 ## Tech Stack
-- Backend: TypeScript
-- AI: LLMs, embeddings, RAG pipelines
+- Language: TypeScript
+- AI: LLMs, embeddings, Retrieval-Augmented Generation (RAG)
 - Cloud: Serverless runtime
-- Data: Vector storage and KV
 
 ## Status
-Active development and production use.
+Active development and production usage.
