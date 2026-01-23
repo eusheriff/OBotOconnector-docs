@@ -14,7 +14,6 @@ Manú is the **Executive Secretary** (Generalist/Router). She governs access to 
     - Sales & Support N1 (RAG + Prompt Knowledge)
     - **Exclusive Toolkit:**
         - ✍️ `generate_copy` (Llama 3 Copywriter)
-        - 💰 `check_competitors` (ML Price Spy)
         - 👁️ `analyze_image` (Gemini Computer Vision)
 
 ## 0. 🏭 OConnector (The Software Factory)

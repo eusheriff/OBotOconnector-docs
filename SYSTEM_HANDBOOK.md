@@ -54,7 +54,6 @@ Manú acts as the single entry point for the entire **OConnector Technology** gr
 
 ### Consolidated Tools (v2.1)
 *   **generate_copy:** Creates sales copy (Llama 3).
-*   **check_competitors:** Checks real prices on Mercado Livre.
 *   **analyze_image:** Sees and validates products via Gemini Vision.
 
 ---
@@ -68,6 +67,14 @@ Manú acts as the single entry point for the entire **OConnector Technology** gr
 ### Audit Tools
 *   **POST `/v2/test/kernel/:id/run`**: Executes prompt directly on Kernel (bypass router).
 *   **GET `/state/dump`** (on DO): Returns entire current memory.
+
+### Client Onboarding (Automation)
+*   **POST `/v1/admin/provision`**: Creates User (KV) + WhatsApp Instance (Evolution) + Returns QR Code.
+*   **CLI Script**: `scripts/onboard-client.ts` wraps the provision endpoint for valid tokens and easier usage.
+    ```bash
+    npx ts-node scripts/onboard-client.ts --name="Client" --email="email@domain.com"
+    ```
+
 
 ---
 
